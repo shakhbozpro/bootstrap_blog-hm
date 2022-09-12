@@ -1,0 +1,149 @@
+/* cyrillic */
+@font-face {
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 700;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/playfairdisplay/v30/nuFiD-vYSZviVYUb_rj3ij__anPXDTjYgFE_.woff2) format('woff2');
+}
+/* vietnamese */
+@font-face {
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 700;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/playfairdisplay/v30/nuFiD-vYSZviVYUb_rj3ij__anPXDTPYgFE_.woff2) format('woff2');
+}
+/* latin-ext */
+@font-face {
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 700;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/playfairdisplay/v30/nuFiD-vYSZviVYUb_rj3ij__anPXDTLYgFE_.woff2) format('woff2');
+}
+/* latin */
+@font-face {
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 700;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/playfairdisplay/v30/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgA.woff2) format('woff2');
+}
+/* cyrillic */
+@font-face {
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 900;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/playfairdisplay/v30/nuFiD-vYSZviVYUb_rj3ij__anPXDTjYgFE_.woff2) format('woff2');
+}
+/* vietnamese */
+@font-face {
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 900;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/playfairdisplay/v30/nuFiD-vYSZviVYUb_rj3ij__anPXDTPYgFE_.woff2) format('woff2');
+}
+/* latin-ext */
+@font-face {
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 900;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/playfairdisplay/v30/nuFiD-vYSZviVYUb_rj3ij__anPXDTLYgFE_.woff2) format('woff2');
+}
+/* latin */
+@font-face {
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 900;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/playfairdisplay/v30/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgA.woff2) format('woff2');
+}
+
+.site-header-wrapper {
+   border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+   font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+   text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+@media (min-width: 1200px) {
+   .site-header-heading {
+      font-size: 3rem!important;
+   }
+}
+
+.display-4 {
+   font-size: 2.5rem;
+}
+
+@media (min-width: 768px) {
+   .display-4 {
+      font-size: 3rem;
+   }
+}
+
+.flex-auto {
+   flex: 0 0 auto;
+}
+
+.h-250 {
+   height: 250px;
+}
+
+@media (min-width: 768px) {
+   .h-md-250 { height: 250px; }
+}
+
+.blog-pagination {
+   margin-bottom: 4rem;
+}
+
+
+.bd-placeholder-img{
+   font-size: 1.125rem;
+   text-anchor: middle;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   user-select: none;
+}
+.blog-post {
+   margin-bottom: 4rem;
+}
+.blog-post-title {
+   font-size: 2.5rem;
+}
+.blog-post-meta {
+   margin-bottom: 1.25rem;
+   color: #727272;
+}
+.description__title{
+   font-size: calc(1.325rem + .9vw);
+}
+.h5{
+   font-size: 1.75rem;
+}
+/* fotter */
+.blog-footer {
+   padding: 2.5rem 0;
+   color: #727272;
+   text-align: center;
+   background-color: #f9f9f9;
+   border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+   margin-bottom: 0;
+}
